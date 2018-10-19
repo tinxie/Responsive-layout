@@ -1,0 +1,18 @@
+@import "../star/star_template.wxss";
+.movielist_view{
+  display: flex;
+  flex-direction:column;
+  float:left;
+  margin-left: 15rpx;
+  
+}
+ .movielist_img{
+  width:230rpx;
+  height:350rpx;
+}
+
+.moviename{
+  text-align: center;
+  font-size: 14px;
+  padding-top:10px;
+}

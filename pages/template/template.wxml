@@ -1,0 +1,33 @@
+<template name="posts_template">  
+   <view class="main-view">
+    <view class="news-content">
+      <view class="author-data">
+        <image src='{{item.author_img}}'></image>
+        <text>{{item.date}}</text>
+        </view>
+      
+
+    <view class="news">
+      <text class="news-title">{{item.title}}</text>
+      <image src="{{item.post_img}}"></image>
+      <text class="newsp">
+      {{item.content}}
+      </text>
+   </view>
+
+    <view class="zan">
+     <view class="zan-fir">
+       <image src="/icon/chat.png"></image>
+       <text>{{item.view_num}}</text>
+     </view> 
+
+     <view class='zan-sec'>
+       <image src="/icon/view.png"></image>
+       <text>{{item.like}}</text>
+      </view>
+    </view>
+    </view>
+</view>
+
+
+</template>

@@ -1,0 +1,13 @@
+@import "../template/moviedemo/moviedemo_template.wxss";
+
+ .moviestemplate{
+  margin: 39rpx 0;
+  height:100%;
+} 
+ .moviescontainer{
+  margin-top:0;
+  height:100%;
+} 
+.moviestemplatefirst{
+  margin-top:0
+}

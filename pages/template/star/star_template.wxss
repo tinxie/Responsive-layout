@@ -1,0 +1,18 @@
+/* pages/template/start.wxss */
+.star_view{
+  display:flex;
+  flex-direction:row;
+
+}
+
+.star_view image{
+
+  width:10px;
+  height:10px;
+  padding-left: 2px;
+  margin-top: 10px;
+}
+.pingfen{
+  padding-left:14px;
+  margin-top:12px;
+}

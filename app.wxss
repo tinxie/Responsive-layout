@@ -1,0 +1,9 @@
+/**app.wxss**/
+text{
+  font-family: Microsoft Yahei;
+  font-size:20rpx;
+}
+ 
+view{
+  display: inline-block;
+} 

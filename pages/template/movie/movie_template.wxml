@@ -1,0 +1,4 @@
+
+<template name="movielist">
+   <image src="/images/nidemingzi.jpg"></image>
+</template>

@@ -1,0 +1,4 @@
+@import "../movie_list/movie_list_template.wxss"; 
+.container-view{
+  height: 1300rpx;
+}

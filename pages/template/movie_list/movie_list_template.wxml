@@ -1,0 +1,9 @@
+<import src="../star/star_template.wxml" />
+<template name="movielist">
+  <view class="movielist_view">
+    <image src="{{imgUrl}}" class="movielist_img"></image>
+    <text class="moviename">{{title}}</text>
+    <!-- //这里自定义属性一定要传入正确，自动以属性决定在模板中传入的数据 -->
+    <template is="star_template" data="{{stars:stars,average:average}}"></template>
+  </view>
+</template>

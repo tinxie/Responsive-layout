@@ -1,0 +1,25 @@
+<view class="container">
+ <view class="header">
+   <image src="{{isplayingMusic?postdata_key.music.coverImg:postdata_key.post_img}}" class="photo"></image>
+   </view>
+
+      <!-- <image catchtap='onmusictap' class="music_icon" src="{{isplayingMusic?'/images/music-stop.png':'/images/music-start.png'}}"></image> -->
+
+   <view class="author">
+        <image src="{{postdata_key.author_img}}"></image>
+        <text>{{postdata_key.author}}</text>
+        <text>发表于</text>
+        <text>{{postdata_key.dateTime}}</text>
+   </view>
+
+   <text class="title">{{postdata_key.title}}</text>
+   <view class="share">
+        <view class="share_image">
+         <image catchtap='onsharetap' src="/icon/share.png"></image>
+         <image wx:if="{{collected}}" catchtap='onCatchtap' src="/icon/collection.png" ></image>
+          <image wx:else catchtap='onCatchtap'  src="/icon/collection-anti.png"></image>
+        </view>
+         <view class="line"></view>
+   </view>
+   <text class="content">{{postdata_key.detail}} </text>
+</view>

@@ -1,0 +1,17 @@
+<import src="../template/moviedemo/moviedemo_template.wxml" />
+<view class='moviescontainer'>
+
+  <view class="moviestemplatefirst">
+  <!-- 这里要展开才能在moviesdemo里面直接使用movies -->
+    <template is="moviedemo" data="{{...inteaer}}"> </template>
+  </view>
+
+  <view class="moviestemplate">
+    <template is="moviedemo" data="{{...comingsoon}}"> </template>
+  </view>
+
+  <view  class=" moviestemplate">
+    <template is="moviedemo" data="{{...top}}"> </template>
+  </view>   
+
+</view>

@@ -1,0 +1,19 @@
+<!--pages/template/start.wxml-->
+<template name="star_template">
+  <view>
+    <view class="star_view">
+      <block wx:for="{{stars}}" wx:for-item="i" wx:key="stars">
+        <image wx:if="{{i}}" src="/icon/star.png"></image>
+         <image wx:else src="/icon/none-star.png"></image> 
+      </block>
+      <!-- <image src="/icon/star.png"></image>
+      <image src="/icon/star.png"></image>
+      <image src="/icon/star.png"></image>
+      <image src="/icon/star.png"></image> -->
+      <text class="pingfen">{{average}}</text>
+    </view>
+
+    
+  </view>
+
+</template>
